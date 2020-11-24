@@ -1,5 +1,38 @@
-.idea/
 target/
-*~
+!.mvn/wrapper/maven-wrapper.jar
+*.mvn/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-.DS_Store
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/mvnw
+/mvnw.cmd
+
+
+# Eclipse
+/target/
+/.classpath
+/*.project
+/.settings
+/*.springBeans
+/*.bin
+
+/bin/
+
