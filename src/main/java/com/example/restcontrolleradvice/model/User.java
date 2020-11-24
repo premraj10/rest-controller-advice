@@ -1,22 +1,15 @@
 package com.example.restcontrolleradvice.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class User {
-
-	private final Integer id;
-	private final String name;
-
-	public User(final Integer id, final String name)
-	{
-		this.id = id;
-		this.name = name;
-	}
-
-	public Integer getId()
-	{
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
+	private int id;
+	private String name;
 }
